@@ -1,0 +1,41 @@
+.awyt-video {
+	text-align: center;
+	/*border: 0.2px solid gray;*/
+	font-family: "Georgia", "serif";
+	font-weight: 100;
+
+ 	display: table;
+	/* TODO: Static URL */
+}
+
+.awyt-video span, .awyt-video a, .awyt-video a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	z-index: 100000;
+}
+
+.awyt-video span, .awyt-video a, .awyt-video h3, .awyt-video p {
+	color: white !important;
+}
+.awyt_video_wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.awyt-icon {
+	margin: 0 auto;
+	width: 300px;
+	height: 190px;
+}
+
+/*
+#awyt-svg svg {
+	margin-left: calc(50% - 50px);
+	width: 400px;
+	height: 330px;
+	fill: grey;
+}
+*/
